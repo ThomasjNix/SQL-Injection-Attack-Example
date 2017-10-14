@@ -1,0 +1,11 @@
+{
+  "name": "sql_init_site",
+  "version": "1.0.0",
+  "description": "A sample site to demonstrate SQL injection attack for an information security class group project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas J. Nix",
+  "license": "ISC"
+}
