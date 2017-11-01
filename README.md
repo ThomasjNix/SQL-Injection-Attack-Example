@@ -21,3 +21,25 @@
     <li> database: 'login'</li>
     <li> Tables 'user' and 'product'</li>
 </ul>
+
+
+<h2>Database Table Schemas</h2>
+
+<p>product table</p>
+<ul>
+    <li> idproduct (INT11, Primary Key, Not Null) </li>
+    <li> name (VARCHAR(45)) </li>
+    <li> price (DOUBLE) </li>
+    <li> quantity (INT11) </li>
+</ul>
+
+<p>user table</p>
+<ul>
+    <li> iduser (INT11, Primary Key, Not Null) </li>
+    <li> firstname (VARCHAR(45)) </li>
+    <li> lastname (VARCHAR(45)) </li>
+    <li> username (VARCHAR(45)) </li>
+    <li> ccnum (VARCHAR(45)) </li>
+    <li> address (VARCHAR(45)) </li>
+    <li> age (INT11) </li>
+</ul>
